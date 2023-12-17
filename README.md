@@ -3,13 +3,15 @@
 
 ## project 1 guess number
 這個猜數字遊戲是為高中學生設計的網頁學習教材，它使用了以下的技術：
-
+![image](https://github.com/kcwc1029/project-Teaching-Material/blob/main/image001.png)
 - HTML：使用 HTML5（Hypertext Markup Language）標記語言來建立網頁的結構和內容。HTML提供了各種元素，如標題、段落、按鈕和輸入框，用於建立網頁的外觀和佈局。
 - CSS：使用 CSS3（Cascading Style Sheets）設定網頁的樣式和外觀。CSS提供了許多樣式屬性，例如顏色、字體、邊框和背景，用於美化和設計網頁元素的外觀。
 - JavaScript：使用 JavaScript 編寫遊戲的邏輯和互動功能。JavaScript 是一種用於網頁交互的程式語言，可以操作網頁元素、處理事件、執行數學計算等。在這個猜數字遊戲中，JavaScript 主要用於生成隨機數字、處理使用者的輸入、顯示回饋訊息、更新分數和紀錄最高分數等。
 - 互動事件：使用 JavaScript 監聽按鈕點擊事件和輸入框的輸入事件，以捕捉使用者的操作。當學生點擊 "Check" 按鈕時，JavaScript 會獲取學生輸入的數字並進行相應的處理和回饋。同樣地，當學生點擊 "Again!" 按鈕時，JavaScript 會重置遊戲並重新生成一個隨機數字。
 - 動態元素：使用 JavaScript 控制 HTML 元素的內容和樣式。遊戲中的元素，如回饋訊息、分數、最高分數和隨機數字等，都是通過 JavaScript 動態更新的。當學生猜測正確數字時，JavaScript 會修改相應的元素內容和樣式，例如顯示正確數字、變更背景顏色等。
 - 隨機數字生成：使用 JavaScript 的 Math 物件和相應的函式生成介於 1 到 100 之間的隨機數字。Math.random() 函式生成 0 到 1 之間的隨機小數，然後通過乘法和加法運算獲得所需的隨機數字範圍。
+![image](https://github.com/kcwc1029/project-Teaching-Material/blob/main/image002.png)
+![image](https://github.com/kcwc1029/project-Teaching-Material/blob/main/image003.png)
 
 這個教材通過結合 HTML、CSS 和 JavaScript，讓高中學生能夠學習和瞭解網頁開發的基礎概念和技術。通過實際編寫遊戲的程式碼，學生可以體驗到如何使用不同的語言和技術來創建互動性和可視化效果。此教材旨在培養學生的邏輯思維、問題解決能力和創造力，同時提供一個有趣且互動的學習環境。
 
