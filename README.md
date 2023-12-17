@@ -38,9 +38,11 @@
 玩家需要謹慎考慮每次擲骰子的機會，以及何時保留目前的分數並將其加到總分中。適時的決策和風險管理是獲勝的關鍵策略。
 
 ### 針對專案中JavaScript 部分主要實現:
+![image](https://github.com/kcwc1029/project-Teaching-Material/blob/main/image004.png)
 - 選取元素：使用 document.querySelector 和 document.getElementById 方法選取 HTML 元素。這些選取器允許我們透過 CSS 選擇器的語法來找到特定的元素，並將它們存儲在變數中供後續使用。
 - 遊戲初始化：init 函數用於初始化遊戲的起始條件，包括重置分數、設置玩家和遊戲狀態等。
 - 切換玩家：switchPlayer 函數用於切換玩家。當玩家擲骰子得到 1 時，該函數將清零當前分數並將控制權交給下一個玩家。
+![image](https://github.com/kcwc1029/project-Teaching-Material/blob/main/image005.png)
 - 擲骰子功能：btnRoll 的點擊事件監聽器處理擲骰子的功能。它生成一個隨機數字表示骰子的點數，並將該數字顯示在介面上。如果骰子點數不為 1，則將點數加到當前分數中；如果當前分數超過 20，則將該玩家的得分增加 1。
 - "Hold" 按鈕功能：btnHold 的點擊事件監聽器處理 "Hold" 按鈕的功能。它將當前分數添加到玩家總分中，並檢查是否達到獲勝條件。如果玩家總分達到或超過 20，則該玩家獲勝並結束遊戲；否則切換到下一個玩家。
 - "New game" 按鈕功能：btnNew 的點擊事件監聽器處理 "New game" 按鈕的功能。它調用 init 函數重置遊戲的起始條件，準備開始一場新遊戲。
